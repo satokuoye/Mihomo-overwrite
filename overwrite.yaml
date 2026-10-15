@@ -84,7 +84,7 @@ rules:
   - AND,((RULE-SET,cn!_domain),(DST-PORT,443),(NETWORK,UDP)),REJECT
   - RULE-SET,private_ip,DIRECT,no-resolve
   - RULE-SET,private_domain,DIRECT
-  - RULE-SET,google_domain,🍀 默认代理
+  - RULE-SET,google_domain,🚀 默认代理
   - RULE-SET,onedrive_domain,🐬 OneDrive
   - RULE-SET,microsoftcn_domain,DIRECT
   - RULE-SET,microsoft_domain,🪟 Microsoft
@@ -98,7 +98,7 @@ rules:
   - RULE-SET,steamcn_domain,DIRECT
   - RULE-SET,steam_domain,🎮 Steam
   - RULE-SET,cn!_domain,🚀 默认代理
-  - RULE-SET,google_ip,🍀 默认代理
+  - RULE-SET,google_ip,🚀 默认代理
   - RULE-SET,apple_ip,🍎 Apple
   - RULE-SET,netflix_ip,🎥 NETFLIX
   - RULE-SET,cn_ip,DIRECT
